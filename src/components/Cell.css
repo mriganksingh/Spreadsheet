@@ -1,0 +1,22 @@
+.cell {
+    position: relative;
+}
+
+.cell.active {
+    background-color: #e0e0e0;
+}
+
+input.cell-input {
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    text-align: center; /* Default align center */
+    border: none;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+input.cell-input:focus {
+    outline: none;
+}
